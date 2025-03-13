@@ -2,9 +2,31 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
     color: #111;
+    background: #fafafa;
+}
+
+.link {
+    text-decoration: none;
+    color: #111;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111
 }
 
 .logo {
@@ -12,8 +34,160 @@ body {
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #111;
 }
 
 .logo-italic {
     font-style: italic;
+    color: #111;
 }
+
+.header-list {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.header-list:hover,
+.header-list:focus {
+    color: #fd9222;
+}
+
+.hero {
+    background-color: #1E1823;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-btn {
+    cursor: pointer;
+    background-color: #fd9222;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero-link {
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero-scroll {
+    font-weight: 500
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+#features {
+    background-color: #1E1823;
+}
+
+.features-list {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.features-text {
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: -0.02em;
+}
+
+.accent {
+    color: #fd9222;
+}
+
+.taste-text {
+   line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.taste-item {
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.taste-item-white {
+        color: #fff;
+}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+}
+ 
+.made-item {
+    list-style-type: disc;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.review-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.review-text {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1E1823;
+}
+
+.slogan {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-address {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+}
+
+.footer-list {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-list:hover,
+.footer-list:focus {
+    color: #fd9222;
+}
+
+
